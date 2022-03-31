@@ -1,0 +1,10 @@
+{
+	"ServeNodes": [
+		":10000"
+	],
+	"ChainNodes": [],
+	"Retries": 0,
+	"Routes": [
+	],
+	"Debug": false
+}
