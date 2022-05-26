@@ -1,5 +1,5 @@
-FROM --platform=$BUILDPLATFORM golang:1-alpine as builder
-
+#FROM --platform=$BUILDPLATFORM golang:1-alpine as builder
+FROM golang:1-alpine
 # Convert TARGETPLATFORM to GOARCH format
 # https://github.com/tonistiigi/xx
 COPY --from=tonistiigi/xx:golang / /
